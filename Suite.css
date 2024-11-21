@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #c7c7c7ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accueil-header, .biographie-header, .photos-header, .Villa-header{
+    background-color: rgb(43, 40, 40);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.Nav-options{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.Nav__options-li {
+    padding: 15px;
+    background-color: rgb(44, 44, 236);
+    border-radius: 8px;
+    color: #fff;
+    list-style-type: none;
+}
+.options-a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+.hero-section{
+    background-color: #f0f0f0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 93px;
+}
+.article{
+    margin: 25px 0 0 35%;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0.5,0,0,0.5);
+}
+.zonePhoto{
+    max-width: 100%;
+    height: 60%;
+}
+.image{
+    width: 100%;
+    max-height: 100%;
+}
+.sectionTitleParagraph{
+    max-width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 10px;
+}
+.one-parahraphe{
+    border: 1px solid gray;
+    margin: 115px 20px 20px 20px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.tgv-title, .chansonsTitle{
+    color: rgb(6, 6, 136);
+    margin-left: 10px;
+}
+.paragrph{
+    margin-left: 10px;
+}
+.sectionD{
+    border: 1px solid gray;
+    background-color: #ffffff;
+    margin: 20px;
+    height: 370px;
+}
+.h2__section{
+    text-align: center;
+    margin: 20px;
+}
+.discographie{
+    display: flex;
+}
+.discographie__item{
+    width: 50%;
+    padding: 0 20px;
+}
+.contChansons{
+    height: 300px;
+    width: 50%;
+    padding: 0 20px ;
+}
+.olSong{
+    height: 100%;
+    padding: 10px 0 0 40px;
+}
+.song{
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 10px 0;
+    width: 192px;
+    text-align: center;
+}
+.linkA{
+    color:  rgb(20, 19, 19);
+    text-decoration: none;
+    text-align: center;
+}
+.BioFooter{
+    background-color: rgb(43, 40, 40);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+.sectionIdentite{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 80px;
+}
+.identite{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(54, 54, 150, 0.596);
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.linkId{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.main-photos{
+    display: flex;
+    gap: 2rem;
+    padding: 0 20px 0 20px;
+}
+.ftsTop{
+    margin-top: 100px;
+}
+.ftsBottom{
+    margin: 10px 0 93px 0;
+}
+.Villa-container, .Villa-containerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 106px;
+}
